@@ -1,7 +1,18 @@
-[README.md](https://github.com/user-attachments/files/22196707/README.md)
+[argos_public_readme (1).md](https://github.com/user-attachments/files/22196717/argos_public_readme.1.md)
+# ARGOS Decision Engine
+
+[![License: BSL 1.1](https://img.shields.io/badge/license-BSL%201.1-red)](LICENSE)
+
+ARGOS is a **real-time decision-support system** for professional and semi-professional traders.  
+It is not just a "signal bot", but a **fusion engine** that explains its reasoning, tracks performance, and delivers a professional dashboard for market monitoring.
+
+---
+
+<img width="1890" height="909" alt="dashboard_argos" src="https://github.com/user-attachments/assets/cb50a7c3-6b1d-4596-803a-11e82443ba33" />
+
 ## About ARGOS Decision Engine
 
-ARGOS is not a simple “signal bot” — it is a **decision intelligence framework** designed for live monitoring, analysis, and action in crypto markets.  
+ARGOS is not a simple "signal bot" — it is a **decision intelligence framework** designed for live monitoring, analysis, and action in crypto markets.
 
 It fuses multiple layers into a single system:
 - **Technical Analytics** — market structure, momentum, volatility regimes, probability-of-move metrics.
@@ -20,10 +31,52 @@ Most trading bots output binary buy/sell suggestions. ARGOS is designed as a **f
 - 🔍 Real-time monitoring for multiple assets (BTC, ETH, SOL, ADA by default).  
 - ⚡ Configurable delay, consensus mode, alpha mode.  
 - 📊 Live dashboard with interactive charts and metrics.  
-- 🔔 Telegram integration with policy-based alerts.  
+- 📢 Telegram integration with policy-based alerts.  
 - 🧠 Fusion of technical indicators and probabilistic overlay (Reson).  
 - 📈 Performance tracking via SQLite (hit rate, outcomes, live open signals).  
-- 🛡️ Noise policies and gating mechanisms to reduce false signals.  
+- 🛡️ Noise policies and gating mechanisms to reduce false signals.
+
+## 🚀 Key Differentiators
+
+### 1. Explainable Signals
+ARGOS outputs are not limited to **BUY/SELL/WAIT**.  
+Each decision includes:
+- **Tier** (1–3) for importance
+- **Confidence** score
+- **Consensus agreement/disagreement**
+- **Gate reason** (e.g. volatility high, cooldown active)
+- **Reson overlay** (probabilistic alpha layer with p_move, p_up, alpha_z)
+
+This gives traders **clarity and justification**, not just blind signals.
+
+### 2. Fusion Decision Engine
+ARGOS combines:
+- **Technical analytics** (RSI, %B, z-score, p_move)
+- **Consensus logic** (multi-signal fusion, adaptive weights)
+- **Noise policies** (entropy, flip-rate, volatility floors, cooldowns)
+- **Reson overlay** (extra-alpha probabilistic driver layer)
+
+The result is a **decision-support framework** designed to reduce false positives and deliver more consistent signals.
+
+### 3. Professional Dashboard
+- **Main board:** assets, price, signal, confidence, tier, "why" explanation  
+- **Sparklines:** mini-charts per asset for quick visual anchoring  
+- **Performance view:** win-rate by tier, hit/miss ratios, outcomes  
+- **Events timeline:** track recent transitions with context  
+- **Drill-down modal:** inspect technical, Reson, and fusion JSON details per asset  
+
+Clean, clear, and usable by **traders who need to act fast but also understand why**.
+
+### 4. Performance Tracking
+- SQLite logging of signals and outcomes  
+- Statistics: hit rate, average duration, win rate per tier/source  
+- Evaluation over 30-day rolling windows
+
+## 📊 Positioning vs. Other Frameworks
+- **Not** just another trading bot.  
+- Unlike *Freqtrade* or *Jesse*, ARGOS is **focused on decision support & explainability**, not on large-scale backtesting or automated order execution.  
+- Unlike *Hummingbot*, ARGOS does not aim for 50+ exchange connectors — instead, it aims to be the **decision "brain"** that could even be paired with other execution frameworks.  
+- **Unique proposition:** transparency, gating policies, noise control, and Reson overlay — features rarely seen in open-source trading software.
 
 ARGOS is designed for **research, evaluation, and private intelligence workflows**.  
 Production or commercial deployment requires a separate license agreement.
