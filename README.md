@@ -1,4 +1,3 @@
-[README (4).md](https://github.com/user-attachments/files/22196723/README.4.md)
 ## About ARGOS Decision Engine
 
 ARGOS is not a simple “signal bot” — it is a **decision intelligence framework** designed for live monitoring, analysis, and action in crypto markets.  
@@ -89,5 +88,9 @@ Most trading bots output binary buy/sell suggestions. ARGOS is designed as a **f
 
 ARGOS is designed for **research, evaluation, and private intelligence workflows**.  
 Production or commercial deployment requires a separate license agreement.
+
+
+
+[README..md](https://github.com/user-attachments/files/22196725/README.md)
 
 
