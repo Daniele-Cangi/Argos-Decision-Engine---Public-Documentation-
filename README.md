@@ -57,12 +57,7 @@ Clean, clear, and usable by **traders who need to act fast but also understand w
 
 ---
 
-## 🔧 Quick Start
-
-```bash
-git clone https://github.com/<your-username>/argos-decision-engine.git
-cd argos-decision-engine
-pip install -r requirements.txt
+## 🔧 TECH
 
 It fuses multiple layers into a single system:
 - **Technical Analytics** — market structure, momentum, volatility regimes, probability-of-move metrics.
