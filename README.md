@@ -84,7 +84,10 @@ Most trading bots output binary buy/sell suggestions. ARGOS is designed as a **f
 ARGOS is designed for **research, evaluation, and private intelligence workflows**.  
 Production or commercial deployment requires a separate license agreement.
 
+## 📞 Contact
 
+For licensing inquiries, collaboration opportunities, or technical questions:
+-Email: dacangs@hotmail.it
 
 [README..md](https://github.com/user-attachments/files/22196725/README.md)
 
