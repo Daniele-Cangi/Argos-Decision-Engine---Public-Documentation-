@@ -11,9 +11,6 @@ It fuses multiple layers into a single system:
 - **Professional Dashboard** — modern web interface with live charts, confidence metrics, and decision intelligence panels.
 
 ARGOS is built for **continuous monitoring**, providing not only entry/exit signals but also a **systemic view**: how confident the model is, whether consensus supports the stance, and how volatility/noise policies shape decisions.
-
-### Why ARGOS?<img width="1890" height="909" alt="dashboard_argos" src="https://github.com/user-attachments/assets/5eba57c2-d2ed-4adf-89e4-1f6ae5e0243c" />
-
 Most trading bots output binary buy/sell suggestions. ARGOS is designed as a **fusion engine**: it produces graded advice, contextual reasoning (tiers, consensus, gating reasons), and performance tracking over time. This makes it closer to a **real decision-support system** than a simple alert generator.
 
 ### Key Features
