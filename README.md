@@ -87,8 +87,8 @@ Production or commercial deployment requires a separate license agreement.
 ## 📞 Contact
 
 For licensing inquiries, collaboration opportunities, or technical questions:
--Email: dacangs@hotmail.it
-
+- Email: dacangs@hotmail.it
+- [GitHub Profile](https://github.com/Daniele-Cangi)  
 [README..md](https://github.com/user-attachments/files/22196725/README.md)
 
 
