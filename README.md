@@ -1,4 +1,4 @@
-[argos_public_readme.md](https://github.com/user-attachments/files/22196689/argos_public_readme.md)
+[argos_public_readme.md](https://github.com/user-attachments/files/22196697/argos_public_readme.md)
 # ARGOS Decision Engine
 
 [![License: BSL 1.1](https://img.shields.io/badge/license-BSL%201.1-red)](LICENSE)
@@ -142,9 +142,10 @@ ARGOS is designed for **research, evaluation, and private intelligence workflows
 
 ---
 
-<img width="1890" height="909" alt="dashboard_argos" src="https://github.com/user-attachments/assets/5b33bc17-b95a-4950-ad23-d8d884318043" />
+## 📞 Contact
 
-
+For licensing inquiries, collaboration opportunities, or technical questions:
+- Dacangs@hotmail.it
 ---
 
 *ARGOS Decision Engine — Where signals meet intelligence.*
