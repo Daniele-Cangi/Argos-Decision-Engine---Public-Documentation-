@@ -110,7 +110,7 @@ ARGOS is designed for **research, evaluation, and private intelligence workflows
 ```
 Market Data → Technical Analytics → Consensus Logic → Decision Engine → Dashboard/Alerts
                      ↓                    ↓               ↓
-              Reson Overlay ──→ Fusion Layer ──→ Performance Tracking
+              Engine Overlay ──→ Fusion Layer ──→ Performance Tracking
 ```
 
 ### Core Components:
