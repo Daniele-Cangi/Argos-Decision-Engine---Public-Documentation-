@@ -1,40 +1,16 @@
-[argos_public_readme (1).md](https://github.com/user-attachments/files/22196717/argos_public_readme.1.md)
+[README (4).md](https://github.com/user-attachments/files/22196723/README.4.md)
+## About ARGOS Decision Engine
+
+ARGOS is not a simple “signal bot” — it is a **decision intelligence framework** designed for live monitoring, analysis, and action in crypto markets.  
 # ARGOS Decision Engine
 
 [![License: BSL 1.1](https://img.shields.io/badge/license-BSL%201.1-red)](LICENSE)
 
 ARGOS is a **real-time decision-support system** for professional and semi-professional traders.  
-It is not just a "signal bot", but a **fusion engine** that explains its reasoning, tracks performance, and delivers a professional dashboard for market monitoring.
+It is not just a “signal bot”, but a **fusion engine** that explains its reasoning, tracks performance, and delivers a professional dashboard for market monitoring.
 
 ---
-
 <img width="1890" height="909" alt="dashboard_argos" src="https://github.com/user-attachments/assets/cb50a7c3-6b1d-4596-803a-11e82443ba33" />
-
-## About ARGOS Decision Engine
-
-ARGOS is not a simple "signal bot" — it is a **decision intelligence framework** designed for live monitoring, analysis, and action in crypto markets.
-
-It fuses multiple layers into a single system:
-- **Technical Analytics** — market structure, momentum, volatility regimes, probability-of-move metrics.
-- **Consensus Logic** — multi-signal fusion with gating policies, noise control, and signal cooldown.
-- **Reson Overlay** — advanced probabilistic layer providing additional alpha signals and scenario drivers.
-- **Decision Engine** — combines all inputs into actionable stances (WAIT, ADVICE, BIG, WHALE).
-- **Alerts & Logging** — configurable Telegram notifications, SQLite-based analytics, full event history.
-- **Professional Dashboard** — modern web interface with live charts, confidence metrics, and decision intelligence panels.
-
-ARGOS is built for **continuous monitoring**, providing not only entry/exit signals but also a **systemic view**: how confident the model is, whether consensus supports the stance, and how volatility/noise policies shape decisions.
-
-### Why ARGOS?
-Most trading bots output binary buy/sell suggestions. ARGOS is designed as a **fusion engine**: it produces graded advice, contextual reasoning (tiers, consensus, gating reasons), and performance tracking over time. This makes it closer to a **real decision-support system** than a simple alert generator.
-
-### Key Features
-- 🔍 Real-time monitoring for multiple assets (BTC, ETH, SOL, ADA by default).  
-- ⚡ Configurable delay, consensus mode, alpha mode.  
-- 📊 Live dashboard with interactive charts and metrics.  
-- 📢 Telegram integration with policy-based alerts.  
-- 🧠 Fusion of technical indicators and probabilistic overlay (Reson).  
-- 📈 Performance tracking via SQLite (hit rate, outcomes, live open signals).  
-- 🛡️ Noise policies and gating mechanisms to reduce false signals.
 
 ## 🚀 Key Differentiators
 
@@ -59,7 +35,7 @@ ARGOS combines:
 The result is a **decision-support framework** designed to reduce false positives and deliver more consistent signals.
 
 ### 3. Professional Dashboard
-- **Main board:** assets, price, signal, confidence, tier, "why" explanation  
+- **Main board:** assets, price, signal, confidence, tier, “why” explanation  
 - **Sparklines:** mini-charts per asset for quick visual anchoring  
 - **Performance view:** win-rate by tier, hit/miss ratios, outcomes  
 - **Events timeline:** track recent transitions with context  
@@ -72,11 +48,46 @@ Clean, clear, and usable by **traders who need to act fast but also understand w
 - Statistics: hit rate, average duration, win rate per tier/source  
 - Evaluation over 30-day rolling windows
 
+---
+
 ## 📊 Positioning vs. Other Frameworks
 - **Not** just another trading bot.  
 - Unlike *Freqtrade* or *Jesse*, ARGOS is **focused on decision support & explainability**, not on large-scale backtesting or automated order execution.  
-- Unlike *Hummingbot*, ARGOS does not aim for 50+ exchange connectors — instead, it aims to be the **decision "brain"** that could even be paired with other execution frameworks.  
+- Unlike *Hummingbot*, ARGOS does not aim for 50+ exchange connectors — instead, it aims to be the **decision “brain”** that could even be paired with other execution frameworks.  
 - **Unique proposition:** transparency, gating policies, noise control, and Reson overlay — features rarely seen in open-source trading software.
+
+---
+
+## 🔧 Quick Start
+
+```bash
+git clone https://github.com/<your-username>/argos-decision-engine.git
+cd argos-decision-engine
+pip install -r requirements.txt
+
+It fuses multiple layers into a single system:
+- **Technical Analytics** — market structure, momentum, volatility regimes, probability-of-move metrics.
+- **Consensus Logic** — multi-signal fusion with gating policies, noise control, and signal cooldown.
+- **Reson Overlay** — advanced probabilistic layer providing additional alpha signals and scenario drivers.
+- **Decision Engine** — combines all inputs into actionable stances (WAIT, ADVICE, BIG, WHALE).
+- **Alerts & Logging** — configurable Telegram notifications, SQLite-based analytics, full event history.
+- **Professional Dashboard** — modern web interface with live charts, confidence metrics, and decision intelligence panels.
+
+ARGOS is built for **continuous monitoring**, providing not only entry/exit signals but also a **systemic view**: how confident the model is, whether consensus supports the stance, and how volatility/noise policies shape decisions.
+
+### Why ARGOS?
+Most trading bots output binary buy/sell suggestions. ARGOS is designed as a **fusion engine**: it produces graded advice, contextual reasoning (tiers, consensus, gating reasons), and performance tracking over time. This makes it closer to a **real decision-support system** than a simple alert generator.
+
+### Key Features
+- 🔍 Real-time monitoring for multiple assets (BTC, ETH, SOL, ADA by default).  
+- ⚡ Configurable delay, consensus mode, alpha mode.  
+- 📊 Live dashboard with interactive charts and metrics.  
+- 🔔 Telegram integration with policy-based alerts.  
+- 🧠 Fusion of technical indicators and probabilistic overlay (Reson).  
+- 📈 Performance tracking via SQLite (hit rate, outcomes, live open signals).  
+- 🛡️ Noise policies and gating mechanisms to reduce false signals.  
 
 ARGOS is designed for **research, evaluation, and private intelligence workflows**.  
 Production or commercial deployment requires a separate license agreement.
+
+
