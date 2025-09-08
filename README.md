@@ -10,6 +10,7 @@ It is not just a “signal bot”, but a **fusion engine** that explains its rea
 
 ---
 <img width="1890" height="909" alt="dashboard_argos" src="https://github.com/user-attachments/assets/cb50a7c3-6b1d-4596-803a-11e82443ba33" />
+<img width="1874" height="900" alt="Screenshot 2025-09-08 130624" src="https://github.com/user-attachments/assets/2ae552ae-eebe-4dc4-aedc-7e0a9ab0c92b" />
 
 ## 🚀 Key Differentiators
 
